@@ -1,3 +1,13 @@
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: RandomSeqLotto
+* Link: https://open.kattis.com/problems/carrots
+* @author Koosha
+* @version 1.0, 10/25/2022
+*
+* Status : Accepted
+* Runtime: 0.102
+*/
 package W1.T4;
 
 import java.util.Random;
