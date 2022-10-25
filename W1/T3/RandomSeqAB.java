@@ -1,7 +1,6 @@
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: RandomSeqAB
-* Link: https://open.kattis.com/problems/carrots
 * @author Koosha
 * @version 1.0, 10/25/2022
 *
