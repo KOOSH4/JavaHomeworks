@@ -1,33 +1,23 @@
-
 import java.util.Scanner;
-
 public class coldputerScience {
-    static public void main(String[] arg){
-        Scanner input = new Scanner(System.in);
-        int minusCounter = 0;
-        int   dayCount;
-        int j=0;
-        do{
-            System.out.print("How many Days? ");
-            dayCount = input.nextInt();
-        }while(dayCount<=0 || dayCount > 100 );
-        int  amountOfInputs = dayCount;
-        int temp[] = new int[amountOfInputs];
 
-        System.out.println("please enter the Temperatur!");
-        do{
-            int
-        }
-        for(int i = 0 ; i < amountOfInputs ; i++) {
-            int days = i+1;
-            System.out.print("day "+ days+" :");
-            temp[i] = input.nextInt();
-            if(temp[i]<0) {
-                minusCounter++;
+    // Instantiate the Scanner
+    private static Scanner reader;
+
+    public static void main(String[] args){
+
+        // Set the scanner to take in input
+        reader = new Scanner(System.in);
+
+        int temps = reader.nextInt();
+        int negatives = 0;
+
+        for(int i=0; i< temps;i++){
+            int temp = reader.nextInt();
+            if(temp < 0){
+                negatives++;
             }
         }
-        System.out.print("Minus Days:");
-        System.out.println(minusCounter);
-
+        System.out.println(negatives);
     }
 }
